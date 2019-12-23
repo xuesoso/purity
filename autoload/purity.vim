@@ -52,7 +52,7 @@ let s:colors = {
     \ 'salmon':         get(s:override_colors, 'salmon',         { 'gui': '#FF875F', 'cterm': '209' }),
     \ 'purple':         get(s:override_colors, 'purple',         { 'gui': '#AF87FF', 'cterm': '141' }),
     \ 'dark_yellow':    get(s:override_colors, 'dark_yellow',    { 'gui': '#D19A66', 'cterm': '173' }),
-    \ 'comment_grey':   get(s:override_colors, 'comment_grey',   { 'gui': '#5F5F87', 'cterm': '61' }),
+    \ 'comment_grey':   get(s:override_colors, 'comment_grey',   { 'gui': '#CCCCED', 'cterm': '61' }),
     \ 'comment_green':   get(s:override_colors, 'comment_green', { 'gui': '#5AA5A2', 'cterm': '61' }),
     \ 'cursor_grey':    get(s:override_colors, 'cursor_grey',    { 'gui': '#2C323C', 'cterm': '236' }),
     \ 'gutter_grey_fg': get(s:override_colors, 'gutter_grey_fg', { 'gui': '#4B5263', 'cterm': '238' }),
