@@ -40,7 +40,7 @@ let s:purple = s:colors.purple
 let s:dark_yellow = s:colors.dark_yellow
 
 " Other colors
-let s:comment_grey = s:colors.comment_grey
+let s:comment_grey = s:colors.dark_yellow
 let s:cursor_grey = s:colors.cursor_grey
 let s:gutter_grey_fg = s:colors.gutter_grey_fg
 let s:blur_grey = s:colors.blur_grey
