@@ -40,7 +40,8 @@ let s:purple = s:colors.purple
 let s:dark_yellow = s:colors.dark_yellow
 
 " Other colors
-let s:comment_grey = s:colors.dark_yellow
+let s:comment_grey = s:colors.salmon
+let s:fold_grey = s:colors.green
 let s:cursor_grey = s:colors.cursor_grey
 let s:gutter_grey_fg = s:colors.gutter_grey_fg
 let s:blur_grey = s:colors.blur_grey
@@ -169,7 +170,7 @@ call s:hi('DiffDelete',   { 'fg': s:black, 'bg': s:salmon })
 call s:hi('DiffText',     { 'fg': s:yellow, 'bg': s:black })
 call s:hi('ErrorMsg',     { 'fg': s:salmon })
 call s:hi('VertSplit',    { 'fg': s:pink })
-call s:hi('Folded',       { 'fg': s:comment_grey })
+call s:hi('Folded',       { 'fg': s:fold_grey })
 call s:hi('FoldColumn',   {})
 call s:hi('SignColumn',   {})
 call s:hi('IncSearch',    { 'fg': s:yellow, 'bg': s:comment_grey })
